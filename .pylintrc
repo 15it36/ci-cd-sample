@@ -1,0 +1,8 @@
+[MESSAGE]
+
+disable=fixme, import-error
+
+[SIMILARITIES]
+ignore-imports = yes
+min-similarity-lines = 5
+max-statements = 100

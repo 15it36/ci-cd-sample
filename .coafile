@@ -1,0 +1,12 @@
+[Python]
+bears = PEP8Bear, BanditBear, PyLintBear
+
+files = **.py
+
+max_lines_per_file = 1500
+max_line_length = 120
+use_spaces = True
+pylint_rcfile = .pylintrc
+
+ignore = .circleci/**, .github/**, migrations/**, tests/**,
+    api/scripts/**, .venv/**, seeding.py
