@@ -12,7 +12,8 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: source coverage.sh
+          command: |
+            run source coverage.sh
           name: Test
 
 workflows:
