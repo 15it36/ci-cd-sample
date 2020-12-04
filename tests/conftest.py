@@ -1,6 +1,6 @@
 """ Configure the testing requirements """
 import pytest
-from main import app as _app
+from factory import app as _app
 
 
 @pytest.fixture(scope='session')

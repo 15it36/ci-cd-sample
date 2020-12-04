@@ -1,3 +1,3 @@
 """ Testing Coverage file """
-pytest --cov=main
+pytest --cov=api/
 
