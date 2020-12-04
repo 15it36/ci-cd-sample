@@ -12,9 +12,7 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: |
-            pip install -r requirements.txt
-            pytest
+          command: source coverage.sh
           name: Test
 
 workflows:
