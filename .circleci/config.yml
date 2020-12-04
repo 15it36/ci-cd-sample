@@ -13,8 +13,7 @@ jobs:
       - python/save-cache
       - run:
           command: |
-            pip install -r requirements.txt
-            source coverage.sh
+            run -m pytest
           name: Test
 
 workflows:
