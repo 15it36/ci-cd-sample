@@ -1,0 +1,7 @@
+[run]
+branch = true
+
+[report]
+fail_under = 200
+show_missing = true
+skip_covered = true
