@@ -13,7 +13,7 @@ jobs:
       - python/save-cache
       - run:
           command: |
-            run -m pytest
+            pytest
           name: Test
 
 workflows:
