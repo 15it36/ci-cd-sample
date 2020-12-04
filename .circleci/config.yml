@@ -13,7 +13,7 @@ jobs:
       - python/save-cache
       - run:
           command: |
-            pip install -r requiremnets.txt
+            pip install -r requirements.txt
             source coverage.sh
           name: Test
 
