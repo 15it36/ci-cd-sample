@@ -20,7 +20,3 @@ def request():
     :return: string
     """
     return 'Sample POST method'
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
