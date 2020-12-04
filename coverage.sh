@@ -1,3 +1,1 @@
-""" Testing Coverage file """
-pytest --cov=main
-
+FLASK_DEBUG=1 pytest --exitfirst --cov=api
