@@ -1,4 +1,4 @@
 """ Run file """
-from main import app
+from factory import app
 
 app.run(debug=True)

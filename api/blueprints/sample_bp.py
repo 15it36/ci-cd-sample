@@ -1,10 +1,10 @@
 """ CI/CD Flask sample project """
-from flask import Flask
+from flask import Blueprint
 
-app = Flask(__name__)
+sample_blueprint = Blueprint('sample_blueprint', __name__)
 
 
-@app.route('/')
+@sample_blueprint.route('/')
 def response():
     """
     Sample Routing func
@@ -13,7 +13,7 @@ def response():
     return 'Welcome to ci/cd sample project'
 
 
-@app.route('/', methods=['POST'])
+@sample_blueprint.route('/', methods=['POST'])
 def request():
     """
     POST sample method
