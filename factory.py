@@ -1,6 +1,5 @@
 """ Factory """
 from flask import Flask
-
 from api.blueprints.payment import payment_bp
 from api.blueprints.sample import sample_blueprint
 
